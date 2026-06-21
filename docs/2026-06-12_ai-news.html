@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026-06-12 公開用AI新聞</title>
+<style>
+:root{--bg:#f5f7fb;--card:#fff;--ink:#1f2937;--muted:#6b7280;--line:#d7dee8;--accent:#18324a;--accent2:#0b5394;--note:#eef8ee}*{box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.8;max-width:1000px;margin:auto;padding:20px;background:var(--bg);color:var(--ink)}header{background:var(--accent);color:#fff;border-radius:18px;padding:24px;margin-bottom:20px}article,section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin:18px 0}h1{margin:0 0 8px}h2{border-bottom:2px solid var(--line);padding-bottom:8px;margin-top:0}.category{color:var(--accent2);font-weight:bold}.meta{color:var(--muted);font-size:.95em}.idea{background:var(--note);padding:12px;border-radius:10px}.note{background:#f8fafc;padding:12px;border-radius:10px;color:var(--muted)}ul{padding-left:1.3em}footer{color:var(--muted);font-size:.9em;margin:24px 0}</style>
+</head>
+<body>
+<header>
+<h1>2026-06-12 公開用AI新聞</h1>
+<p>6月パッチ確認、境界機器の悪用済み脆弱性、AIサービスの大型化、AI検索の根拠確認、熱中症対策を中心に整理しました。</p>
+</header>
+<section>
+<h2>今日の注目記事</h2>
+<article>
+<h3>Check Point製品の認証回避脆弱性 CVE-2026-50751</h3>
+<p>境界機器やリモートアクセス環境は、業務システムの入口になるため、悪用確認済みの脆弱性は優先度を上げて確認する必要があります。</p>
+</article>
+</section>
+<section>
+<h2>掲載記事</h2>
+<article><div class="category">カテゴリ：セキュリティ運用</div><h3>Microsoft製品の2026年6月セキュリティ更新</h3><p class="meta">出典：IPA / Microsoft</p><ul><li>月例更新の確認が必要。</li><li>Windows端末・サーバの適用状況確認が重要。</li><li>更新後の業務影響も確認する。</li></ul><p>実務ポイント：月例パッチは、配信・適用・再起動・不具合確認までを運用として見ておく必要があります。</p><div class="idea">活用メモ：保守チェック表に「Windows更新状況」「再起動要否」「業務影響確認」を入れる。</div><p>新規性メモ：高。6月月例更新。</p><p>信頼度メモ：公的機関・ベンダー情報。</p></article>
+<article><div class="category">カテゴリ：セキュリティ運用</div><h3>Adobe Acrobat / Readerの2026年6月脆弱性対策</h3><p class="meta">出典：IPA / Adobe</p><ul><li>PDF閲覧ソフトは業務端末で広く使われる。</li><li>古いバージョンの放置は攻撃入口になりやすい。</li><li>利用頻度が高いため更新確認の優先度が高い。</li></ul><p>実務ポイント：端末保守ではOSだけでなく、Adobe Readerなど利用頻度の高いソフトも点検対象です。</p><div class="idea">活用メモ：端末確認項目に「Adobe Readerのバージョン」を追加する。</div><p>新規性メモ：高。</p><p>信頼度メモ：公的機関・ベンダー情報。</p></article>
+<article><div class="category">カテゴリ：境界防御</div><h3>Check Point製品の認証回避脆弱性 CVE-2026-50751</h3><p class="meta">出典：IPA</p><ul><li>認証回避につながる脆弱性として案内。</li><li>悪用確認があるため優先確認が必要。</li><li>境界機器・リモートアクセス設定の棚卸しが重要。</li></ul><p>実務ポイント：VPNや境界機器は外部公開に近い位置にあるため、資産一覧と更新状況の確認が重要です。</p><div class="idea">活用メモ：境界機器、VPN、UTMの製品名・バージョン・保守窓口を一覧化する。</div><p>新規性メモ：高。悪用確認あり。</p><p>信頼度メモ：公的機関。</p></article>
+<article><div class="category">カテゴリ：生成AI</div><h3>ChatGPTの大型刷新とsuperapp化に関する報道</h3><p class="meta">出典：Reuters / Wired</p><ul><li>ChatGPTが単なるチャットから、より多機能な業務入口へ進む方向性。</li><li>AI機能の拡張と同時に、利用ルール・権限管理の重要性が増す。</li><li>AI活用は便利さだけでなく統制が必要。</li></ul><p>実務ポイント：AI導入では、機能紹介よりも「何に使うか」「何を入れないか」「誰が確認するか」が重要です。</p><div class="idea">活用メモ：AI利用ルールに、入力禁止情報・出力確認・ログ管理を入れる。</div><p>新規性メモ：中。</p><p>信頼度メモ：報道情報。</p></article>
+<article><div class="category">カテゴリ：AI検索・情報リテラシー</div><h3>Google AI Overviewsの出典品質・主張の裏付けに関する研究</h3><p class="meta">出典：arXiv</p><ul><li>AI検索の回答と出典の関係を検証。</li><li>AI回答は出典付きでも、そのまま信じず確認が必要。</li><li>情報リテラシー教育との関係が深い。</li></ul><p>実務ポイント：AI回答を業務利用する場合は、根拠リンクの確認と、重要判断での人のレビューが必要です。</p><div class="idea">活用メモ：「AI回答は根拠確認してから使う」という運用ルールを作る。</div><p>新規性メモ：中。</p><p>信頼度メモ：研究論文。実務適用時は追加確認が必要。</p></article>
+<article><div class="category">カテゴリ：健康・生活</div><h3>熱中症関連情報</h3><p class="meta">出典：厚生労働省</p><ul><li>6月以降は暑さに体が慣れていない時期。</li><li>水分補給、暑さ回避、休憩が基本。</li><li>外出や作業予定には余裕を持たせる。</li></ul><p>実務ポイント：外出や現地作業がある日は、体調面の余裕も計画に入れる必要があります。</p><div class="idea">活用メモ：外出日は水分補給と休憩時間を予定に入れる。</div><p>新規性メモ：季節性の高い注意事項。</p><p>信頼度メモ：公的機関。</p></article>
+</section>
+<section><h2>公開方針</h2><p class="note">このページは公開用のため、個人名・顧客名・社内事情・未公開案件名を含めない形に編集しています。</p></section>
+<footer>Paropten News Archive / 2026-06-12</footer>
+</body>
+</html>
