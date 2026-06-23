@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-06-24 公開用AI新聞</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <style>
+    :root { --bg:#f5f7fb; --ink:#1f2937; --muted:#667085; --line:#d7dee8; --card:#fff; --navy:#18324a; --blue:#0b5394; --soft:#eef5ff; --green:#eaf7ef; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Yu Gothic",sans-serif; line-height:1.85; }
+    .wrap { max-width:980px; margin:0 auto; padding:28px 18px 44px; }
+    header { background:linear-gradient(135deg,#18324a,#28547a); color:white; padding:28px; border-radius:22px; margin-bottom:22px; box-shadow:0 10px 28px rgba(24,50,74,.18); }
+    h1 { margin:0 0 10px; font-size:1.85rem; line-height:1.35; }
+    header p { margin:0; color:#e7eef7; }
+    .pill { display:inline-block; margin:14px 6px 0 0; padding:4px 10px; border-radius:999px; background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.24); font-size:.86rem; }
+    section,.card,.tip { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:22px; margin-bottom:18px; }
+    .lead { background:var(--soft); border-left:5px solid var(--blue); }
+    h2 { font-size:1.35rem; margin:0 0 14px; padding-bottom:8px; border-bottom:2px solid var(--line); }
+    h3 { font-size:1.14rem; margin:6px 0 8px; line-height:1.5; }
+    h4 { margin:14px 0 4px; font-size:.98rem; color:#25415f; }
+    a { color:var(--blue); text-decoration:none; font-weight:700; word-break:break-all; }
+    a:hover { text-decoration:underline; }
+    .cat { display:inline-block; padding:2px 9px; border-radius:999px; background:#e7f0fb; color:#25415f; font-size:.82rem; font-weight:700; }
+    .meta,.url,.note { color:var(--muted); font-size:.92rem; }
+    ul,ol { padding-left:1.25rem; }
+    .portal { background:#fffdf5; border:1px solid #eadca8; border-radius:16px; padding:18px; }
+    .tips { background:var(--green); border-left:5px solid #248a4b; }
+    footer { color:var(--muted); font-size:.9rem; text-align:center; margin-top:28px; }
+    @media (max-width:640px) { .wrap { padding:16px 12px 34px; } header,section,.card,.tip { padding:18px; border-radius:16px; } h1 { font-size:1.45rem; } }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>2026-06-24 公開用AI新聞</h1>
+      <p>公共DX、ポータル構築、AIナレッジ、アクセシビリティ、セキュリティを中心に、公開情報から実務に使いやすい観点を整理しました。</p>
+      <span class="pill">公共DX</span><span class="pill">ユーザポータル</span><span class="pill">AI・RAG</span><span class="pill">セキュリティ</span>
+    </header>
+
+    <section class="lead">
+      <h2>今日の見立て</h2>
+      <p>公開サイトや会員制ポータルは、資料を置くだけでは十分ではありません。利用者接点、FAQ、マニュアル案内、属性別表示、アクセシビリティ、権限管理を一体で設計することで、問い合わせ削減と運用品質の両方につながります。AIチャットやRAGは、まず参照元が明確なFAQ・マニュアル案内に絞ると安全に始めやすいです。</p>
+    </section>
+
+    <section>
+      <h2>掲載記事</h2>
+
+      <article class="card">
+        <div class="cat">自治体DX</div>
+        <h3>自治体フロントヤード改革ダッシュボード更新</h3>
+        <p class="meta">公開日・更新日：最終更新日 2026年5月13日 / 出典：デジタル庁</p>
+        <p class="url"><a href="https://www.digital.go.jp/resources/govdashboard/front-yard-reform">https://www.digital.go.jp/resources/govdashboard/front-yard-reform</a></p>
+        <h4>要点</h4>
+        <ul>
+          <li>住民との接点の多様化・充実化、窓口業務の改善、利便性向上と業務効率化を目的に取組状況を可視化。</li>
+          <li>都道府県・市区町村別の状況やモデルプロジェクトが整理され、横展開の参考にしやすい。</li>
+          <li>公開データや定義資料も用意され、施策の比較・説明資料化に使いやすい。</li>
+        </ul>
+        <h4>実務ポイント</h4>
+        <p>公共向けポータルや窓口支援システムを設計する際、利用者接点、自己解決、有人対応、バックヤード連携を分けて確認する視点が得られます。</p>
+        <h4>活用メモ</h4>
+        <p>トップ画面の導線は、お知らせ、よくある質問、申請・手続き、問い合わせの順に整理すると利用者の迷いを減らしやすくなります。</p>
+        <h4>新規性メモ</h4>
+        <p>2026年5月13日にデータ更新。直近の自治体DX動向を確認する基礎資料として扱えます。</p>
+        <h4>信頼度メモ</h4>
+        <p>公的機関の公開資料。政策・制度の一次情報として信頼度は高いです。</p>
+      </article>
+
+      <article class="card">
+        <div class="cat">アクセシビリティ</div>
+        <h3>ウェブアクセシビリティ導入ガイドブック</h3>
+        <p class="meta">公開日・更新日：最終更新日 2025年10月16日 / 出典：デジタル庁</p>
+        <p class="url"><a href="https://www.digital.go.jp/resources/introduction-to-web-accessibility-guidebook">https://www.digital.go.jp/resources/introduction-to-web-accessibility-guidebook</a></p>
+        <h4>要点</h4>
+        <ul>
+          <li>行政官や事業者向けに、ウェブアクセシビリティの考え方と取り組み方を初心者向けに整理。</li>
+          <li>スマートフォン対応、スクリーンリーダー、わかりやすい言葉など、公共サービスで見落としやすい観点を扱う。</li>
+          <li>デジタル社会推進標準ガイドラインのInformative文書として位置付けられている。</li>
+        </ul>
+        <h4>実務ポイント</h4>
+        <p>公開サイトや会員制ポータルの要件定義では、後付け対応ではなく、文字、色、見出し、読み上げ順を最初から確認項目に入れる必要があります。</p>
+        <h4>活用メモ</h4>
+        <p>公開前チェックに、スマートフォン表示、キーボード操作、リンク文言、色だけに頼らない案内を入れると品質を保ちやすくなります。</p>
+        <h4>新規性メモ</h4>
+        <p>2025年10月16日に標準ガイドラインへ編入された更新版です。</p>
+        <h4>信頼度メモ</h4>
+        <p>デジタル庁の公式資料。公共サイト設計の基礎資料として信頼度は高いです。</p>
+      </article>
+
+      <article class="card">
+        <div class="cat">AI・ナレッジ</div>
+        <h3>Dify Knowledge：FAQ・マニュアルをAI回答に使う設計</h3>
+        <p class="meta">公開日・更新日：公式ドキュメント / 出典：Dify Docs</p>
+        <p class="url"><a href="https://docs.dify.ai/en/use-dify/knowledge/readme">https://docs.dify.ai/en/use-dify/knowledge/readme</a></p>
+        <h4>要点</h4>
+        <ul>
+          <li>独自データや専門知識をAIアプリに接続するためのKnowledge機能を説明。</li>
+          <li>カスタマーサポート、社内ナレッジ、FAQ、トラブルシューティング用途に応用しやすい。</li>
+          <li>RAGでは、回答本文だけでなく参照元資料の管理が重要になる。</li>
+        </ul>
+        <h4>実務ポイント</h4>
+        <p>問い合わせ削減を目的にする場合、AIチャットを万能窓口にせず、FAQ検索とマニュアル案内に限定して始めると運用しやすくなります。</p>
+        <h4>活用メモ</h4>
+        <p>FAQは質問文、回答、対象業務、関連資料、更新日を分けて管理すると、検索精度とメンテナンス性が上がります。</p>
+        <h4>新規性メモ</h4>
+        <p>AIチャット・RAGをサポートサイトへ組み込む際の現在の基本設計として有用です。</p>
+        <h4>信頼度メモ</h4>
+        <p>製品公式ドキュメント。機能仕様の一次情報として扱えます。</p>
+      </article>
+
+      <article class="card">
+        <div class="cat">ポータル構築</div>
+        <h3>Softrのクライアントポータル設計</h3>
+        <p class="meta">公開日・更新日：公式ヘルプ / 出典：Softr Help Docs</p>
+        <p class="url"><a href="https://docs.softr.io/how-to-guides/how-to-create-a-client-portal">https://docs.softr.io/how-to-guides/how-to-create-a-client-portal</a></p>
+        <h4>要点</h4>
+        <ul>
+          <li>Airtableデータを外部ユーザーへ安全に共有するクライアントポータルの作成手順を説明。</li>
+          <li>ユーザーグループ、条件付きフィルター、ページ・ブロック単位の表示制御が重要な考え方。</li>
+          <li>ユーザーごとに関連データだけを表示する設計が、属性別お知らせ配信に応用できる。</li>
+        </ul>
+        <h4>実務ポイント</h4>
+        <p>会員制ポータルでは、誰に何を見せるかを画面側だけでなく、データ属性と権限の両方で設計する必要があります。</p>
+        <h4>活用メモ</h4>
+        <p>「利用者」「所属組織」「契約・利用属性」「資料」「お知らせ」を分けて持つと、後から配信条件を増やしやすくなります。</p>
+        <h4>新規性メモ</h4>
+        <p>ノーコードでポータルを構築する際の権限・表示制御の実装例として参考になります。</p>
+        <h4>信頼度メモ</h4>
+        <p>製品公式ドキュメント。実装方法の一次情報ですが、採用時は料金・制限の最新確認が必要です。</p>
+      </article>
+
+      <article class="card">
+        <div class="cat">外部ユーザー管理</div>
+        <h3>Airtable Portals：外部コラボレーター向けポータル</h3>
+        <p class="meta">公開日・更新日：更新日 2026年4月7日 / 出典：Airtable Support</p>
+        <p class="url"><a href="https://support.airtable.com/docs/using-airtable-portals-for-external-collaborators">https://support.airtable.com/docs/using-airtable-portals-for-external-collaborators</a></p>
+        <h4>要点</h4>
+        <ul>
+          <li>外部ユーザー向けにAirtableデータを扱うポータル機能を説明。</li>
+          <li>外部ユーザーの表示・共有・編集権限に制限があり、通常の共有とは設計が異なる。</li>
+          <li>外部ユーザー数、編集可否、課金条件を事前に確認する必要がある。</li>
+        </ul>
+        <h4>実務ポイント</h4>
+        <p>ポータル構築では、画面が作れるかだけでなく、外部ユーザー権限、組織間の分離、閲覧専用運用、費用見積もりが重要になります。</p>
+        <h4>活用メモ</h4>
+        <p>本番前に、閲覧のみ、投稿可、編集可、管理者の4区分でアカウント数と権限表を作ると検討しやすくなります。</p>
+        <h4>新規性メモ</h4>
+        <p>2026年4月更新のサポート情報で、外部ユーザー運用の確認材料になります。</p>
+        <h4>信頼度メモ</h4>
+        <p>製品公式サポート。仕様確認に有用ですが、契約プランにより条件が変わる可能性があります。</p>
+      </article>
+
+      <article class="card">
+        <div class="cat">セキュリティ</div>
+        <h3>情報セキュリティ10大脅威 2026</h3>
+        <p class="meta">公開日・更新日：公開日 2026年1月29日、最終更新日 2026年5月21日 / 出典：IPA</p>
+        <p class="url"><a href="https://www.ipa.go.jp/security/10threats/10threats2026.html">https://www.ipa.go.jp/security/10threats/10threats2026.html</a></p>
+        <h4>要点</h4>
+        <ul>
+          <li>組織・個人が注意すべき情報セキュリティ上の脅威を毎年整理する資料。</li>
+          <li>公開サイト、ポータル、問い合わせフォーム、外部連携を扱う場合のリスク確認に使いやすい。</li>
+          <li>脅威の傾向を、利用者教育、運用ルール、バックアップ、権限管理へ落とし込む必要がある。</li>
+        </ul>
+        <h4>実務ポイント</h4>
+        <p>ポータルやAIチャットを公開・外部利用する場合、ID管理、不要な公開情報、添付ファイル、フィッシング誘導への対策を同時に確認する必要があります。</p>
+        <h4>活用メモ</h4>
+        <p>公開前チェックリストに、管理者アカウント、公開範囲、問い合わせフォーム、添付ファイル、バックアップ、ログ確認を含めると安全性が上がります。</p>
+        <h4>新規性メモ</h4>
+        <p>2026年版として公開され、2026年5月21日に更新されています。</p>
+        <h4>信頼度メモ</h4>
+        <p>IPAの公式資料。セキュリティ対策の一般指針として信頼度は高いです。</p>
+      </article>
+    </section>
+
+    <section class="portal">
+      <h2>ユーザポータル構築メモ</h2>
+      <ul>
+        <li>問い合わせ削減を目的にする場合、最初の画面には「重要なお知らせ」「よくある質問」「マニュアル検索」「問い合わせ」を集約する。</li>
+        <li>属性別お知らせ配信では、利用者属性、所属組織、利用サービス、契約・公開範囲をデータとして分けて管理する。</li>
+        <li>AIチャットは、回答生成より先に、FAQの見出し、マニュアル章番号、更新日、問い合わせ履歴の分類を整備する。</li>
+        <li>公開前チェックでは、個人情報、未公開情報、権限別表示、スマートフォン表示、アクセシビリティ、バックアップを確認する。</li>
+      </ul>
+    </section>
+
+    <section class="tips">
+      <h2>今日の便利Tips</h2>
+      <article class="tip">
+        <div class="cat">Excel</div>
+        <h3>表の見出しを固定して確認ミスを減らす</h3>
+        <h4>手順</h4>
+        <ol>
+          <li>表内の任意セルを選ぶ。</li>
+          <li>Ctrl + Tでテーブル化する。</li>
+          <li>下へスクロールすると列見出しが残り、列の意味を確認しながら入力できる。</li>
+        </ol>
+        <h4>注意点</h4>
+        <p>結合セルが多い表ではテーブル化が崩れることがあります。先に結合を解除してから試すと安全です。</p>
+        <h4>活用メモ</h4>
+        <p>チェックリスト、端末一覧、ユーザー一覧など、列数が多い表で効果があります。</p>
+      </article>
+      <article class="tip">
+        <div class="cat">Windows 11</div>
+        <h3>クリップボード履歴で定型文をすばやく貼り付ける</h3>
+        <h4>手順</h4>
+        <ol>
+          <li>Windowsキー + Vを押す。</li>
+          <li>初回だけクリップボード履歴を有効化する。</li>
+          <li>過去にコピーした文字列やURLを選んで貼り付ける。</li>
+        </ol>
+        <h4>注意点</h4>
+        <p>パスワードや個人情報をコピーした後は、必要に応じて履歴から削除してください。</p>
+        <h4>活用メモ</h4>
+        <p>問い合わせ返信の定型文、URL、コマンド断片を一時的に使い回す場面で便利です。</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>公開前チェック</h2>
+      <ul>
+        <li>個人名・呼び名を含めていない。</li>
+        <li>顧客名、社内事情、未公開案件、非公開リンクを含めていない。</li>
+        <li>公開URLとして参照できる情報のみを掲載。</li>
+        <li>禁止表現の機械的チェックを実施済み。</li>
+      </ul>
+    </section>
+
+    <footer>Generated for Paropten News Archive.</footer>
+  </main>
+</body>
+</html>
