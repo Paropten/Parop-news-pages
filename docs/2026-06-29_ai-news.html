@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-06-29 公開用AI新聞</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <style>
+    :root {
+      --bg:#f5f7fb; --ink:#1f2937; --muted:#667085; --line:#d7dee8;
+      --card:#ffffff; --navy:#18324a; --blue:#0b5394; --soft:#eef5ff;
+      --green:#ecfdf3;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0; background:var(--bg); color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Yu Gothic",sans-serif;
+      line-height:1.85;
+    }
+    .wrap { max-width:980px; margin:0 auto; padding:28px 18px 44px; }
+    header {
+      background:linear-gradient(135deg,#18324a,#28547a); color:white;
+      border-radius:22px; padding:28px; margin-bottom:22px;
+      box-shadow:0 10px 28px rgba(24,50,74,.18);
+    }
+    header h1 { margin:0 0 10px; font-size:1.8rem; line-height:1.35; }
+    header p { margin:0; color:#e7eef7; }
+    .meta-row { display:flex; gap:8px; flex-wrap:wrap; margin-top:16px; }
+    .pill {
+      display:inline-block; padding:4px 10px; border-radius:999px;
+      background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.24);
+      font-size:.86rem;
+    }
+    section,.card,.tip {
+      background:var(--card); border:1px solid var(--line); border-radius:18px;
+      padding:22px; margin-bottom:18px;
+    }
+    section.lead { background:var(--soft); border-left:5px solid var(--blue); }
+    h2 { font-size:1.35rem; margin:0 0 14px; padding-bottom:8px; border-bottom:2px solid var(--line); }
+    h3 { font-size:1.12rem; margin:8px 0 8px; line-height:1.55; }
+    h4 { margin:14px 0 4px; color:#25415f; font-size:.96rem; }
+    ul,ol { padding-left:1.25rem; margin-top:6px; }
+    a { color:var(--blue); text-decoration:none; font-weight:700; overflow-wrap:anywhere; }
+    a:hover { text-decoration:underline; }
+    .badge {
+      display:inline-block; padding:3px 10px; border-radius:999px;
+      background:#e7f0fb; color:#25415f; font-size:.82rem; font-weight:700;
+    }
+    .meta,.url { color:var(--muted); font-size:.92rem; margin:4px 0 8px; }
+    .tip { background:#fffefa; }
+    .portal { background:var(--green); border-left:5px solid #12b76a; }
+    .check { background:#fafcff; border:1px dashed #b8c7d9; border-radius:14px; padding:14px 16px; }
+    footer { color:var(--muted); font-size:.9rem; text-align:center; margin-top:28px; }
+    @media (max-width:640px) {
+      .wrap { padding:16px 12px 34px; }
+      header,section,.card,.tip { padding:18px; border-radius:16px; }
+      header h1 { font-size:1.45rem; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>2026-06-29 公開用AI新聞</h1>
+      <p>公共IT、図書館DX、デジタル資料、本人確認、ポータル運用に関係する直近情報を、公開向けに整理しました。</p>
+      <div class="meta-row">
+        <span class="pill">公共IT</span>
+        <span class="pill">図書館DX</span>
+        <span class="pill">OCR</span>
+        <span class="pill">本人確認</span>
+        <span class="pill">便利Tips</span>
+      </div>
+    </header>
+
+    <section class="lead">
+      <h2>今日の見立て</h2>
+      <p>本日は、公共IT費用の見える化、本人確認ダッシュボード、NDLOCR-Lite、標準型電子カルテ、デジタルコンテンツの信頼性を取り上げます。共通する論点は、システムを作るだけでなく、費用、出典、更新日、認証、運用保守まで見える形にすることです。ポータルや資料公開の運用でも、情報の探しやすさと信頼性を両立させる設計が重要になります。</p>
+    </section>
+
+    <article class="card">
+      <div class="badge">公共IT・費用見える化</div>
+      <h3>1. 各府省情報システムの経費・費用対効果が更新</h3>
+      <p class="meta">公開日：2026年6月26日 ／ 出典：デジタル庁</p>
+      <p class="url"><a href="https://www.digital.go.jp/policies/development_management/cost-effectiveness">https://www.digital.go.jp/policies/development_management/cost-effectiveness</a></p>
+      <h4>要点</h4>
+      <ul>
+        <li>令和6年度の各府省情報システム経費実績と、運用経費等の3割削減目標の進捗が公開されました。</li>
+        <li>情報システム費用を単年度の金額だけでなく、利便性や運用改善と合わせて見える化する流れが続いています。</li>
+        <li>公開資料は、システム更新やクラウド化を説明する際の費用対効果整理の参考になります。</li>
+      </ul>
+      <h4>実務ポイント</h4>
+      <p>公共分野のシステム提案では、初期費用だけでなく、運用費、保守負荷、標準化、利用者利便性を合わせて説明する必要があります。</p>
+      <h4>活用メモ</h4>
+      <p>更新提案や内部説明では「何にいくらかかるか」だけでなく「どの業務負荷を下げるか」を1枚で整理すると伝わりやすくなります。</p>
+      <h4>新規性メモ</h4>
+      <p>6月26日に令和6年度決算ベースの情報が追加された点が新しい内容です。</p>
+      <h4>信頼度メモ</h4>
+      <p>一次情報。デジタル庁の政策ページであり、公開日・更新日が明示されています。</p>
+    </article>
+
+    <article class="card">
+      <div class="badge">本人確認・オンライン手続</div>
+      <h3>2. マイナンバーカード普及・利活用ダッシュボードが更新</h3>
+      <p class="meta">公開日：2026年6月26日 ／ 出典：デジタル庁</p>
+      <p class="url"><a href="https://www.digital.go.jp/resources/govdashboard/mynumber_card_penetration_usage">https://www.digital.go.jp/resources/govdashboard/mynumber_card_penetration_usage</a></p>
+      <h4>要点</h4>
+      <ul>
+        <li>マイナンバーカードの普及状況と利活用状況を示すダッシュボードが6月26日に更新されました。</li>
+        <li>オンライン市役所化、市民カード化、安全・便利な民間ビジネスという観点で利用状況を確認できます。</li>
+        <li>データ定義と出所を明示し、Excel・CSV形式でもデータが提供されています。</li>
+      </ul>
+      <h4>実務ポイント</h4>
+      <p>オンライン手続や会員制サービスを検討する際、本人確認・認証・利用状況の見える化は重要な論点になります。</p>
+      <h4>活用メモ</h4>
+      <p>ポータルや手続サイトでは、ログイン方式、本人確認レベル、利用状況の集計項目を最初に分けて設計すると後から説明しやすくなります。</p>
+      <h4>新規性メモ</h4>
+      <p>月末更新の一環として、2026年6月26日更新データが反映されています。</p>
+      <h4>信頼度メモ</h4>
+      <p>一次情報。デジタル庁が公開する政策ダッシュボードです。</p>
+    </article>
+
+    <article class="card">
+      <div class="badge">図書館DX・OCR</div>
+      <h3>3. NDLOCR-Liteの公開背景が整理される</h3>
+      <p class="meta">公開日：2026年6月25日 ／ 出典：カレントアウェアネス・ポータル</p>
+      <p class="url"><a href="https://current.ndl.go.jp/e2891">https://current.ndl.go.jp/e2891</a></p>
+      <h4>要点</h4>
+      <ul>
+        <li>国立国会図書館が公開しているNDLOCR-Liteについて、軽量版開発の背景や特徴が解説されました。</li>
+        <li>一般的なノートPCでも動作し、外部通信なしで処理が完結する点が特徴として紹介されています。</li>
+        <li>TXT、JSON、XML、TEI、透明テキスト付きPDFなど複数形式で出力でき、業務利用やデジタルアーカイブ活用に広がりがあります。</li>
+      </ul>
+      <h4>実務ポイント</h4>
+      <p>紙資料や画像資料を扱う現場では、OCRを高性能な専用環境だけに閉じず、扱いやすいツールとして広げる視点が重要になります。</p>
+      <h4>活用メモ</h4>
+      <p>資料デジタル化の検証では、認識精度だけでなく、端末要件、通信有無、出力形式、職員が操作できるかを確認項目に入れるとよさそうです。</p>
+      <h4>新規性メモ</h4>
+      <p>2026年6月25日の解説記事で、2026年2月の一般公開後の背景と今後の実証実験まで整理されています。</p>
+      <h4>信頼度メモ</h4>
+      <p>国立国会図書館の図書館情報サイトによる解説。参照元としてNDL LabとGitHubも示されています。</p>
+    </article>
+
+    <article class="card">
+      <div class="badge">医療DX・標準化</div>
+      <h3>4. 標準型電子カルテ導入版のプロダクトワーキンググループが決定</h3>
+      <p class="meta">公開日：2026年6月26日 ／ 出典：デジタル庁</p>
+      <p class="url"><a href="https://www.digital.go.jp/news/43124388-123a-484b-ac1b-350ee43dd679">https://www.digital.go.jp/news/43124388-123a-484b-ac1b-350ee43dd679</a></p>
+      <h4>要点</h4>
+      <ul>
+        <li>標準型電子カルテ導入版の設計・開発に関する2026年度のプロダクトワーキンググループ構成員が決定しました。</li>
+        <li>業務をスムーズに行える機能・UX、連携システムとの接続、導入・運用保守の効率化が考慮点として示されています。</li>
+        <li>公共性の高いシステム開発で、利用現場の意見を取り込みながら標準仕様を作る進め方が確認できます。</li>
+      </ul>
+      <h4>実務ポイント</h4>
+      <p>標準化されたシステムでも、実際の利用現場に合うUXと運用保守のしやすさを同時に見る必要があります。</p>
+      <h4>活用メモ</h4>
+      <p>新しい仕組みを作る際は、機能一覧だけでなく、試行段階で現場から何を確認するかを先に決めておくと手戻りを減らせます。</p>
+      <h4>新規性メモ</h4>
+      <p>6月3日にプレキックオフを実施し、2026年度の活動開始が公表されました。</p>
+      <h4>信頼度メモ</h4>
+      <p>一次情報。デジタル庁のニュースとして公開されています。</p>
+    </article>
+
+    <article class="card">
+      <div class="badge">図書館・デジタルコンテンツ</div>
+      <h3>5. デジタルコンテンツの信頼性をめぐる国際的な取り組み</h3>
+      <p class="meta">公開日：2026年6月26日 ／ 出典：カレントアウェアネス・ポータル</p>
+      <p class="url"><a href="https://current.ndl.go.jp/car/281600">https://current.ndl.go.jp/car/281600</a></p>
+      <h4>要点</h4>
+      <ul>
+        <li>図書館、出版者、研究情報コミュニティのリーダーによるデジタルコンテンツの信頼性に関する取り組みが紹介されました。</li>
+        <li>生成AIやデジタル流通が広がるほど、コンテンツの出所、真正性、改変有無を確認する仕組みが重要になります。</li>
+        <li>図書館や公共サイトでも、資料やお知らせの出典、更新日、責任範囲を示す運用が求められます。</li>
+      </ul>
+      <h4>実務ポイント</h4>
+      <p>ポータルや資料公開では、便利さだけでなく、どの情報が公式で、いつ更新され、どこまで信頼できるかを示すことが重要になります。</p>
+      <h4>活用メモ</h4>
+      <p>公開資料には、資料名、版数、更新日、担当部署、参照元を持たせると、後から検索・更新・確認がしやすくなります。</p>
+      <h4>新規性メモ</h4>
+      <p>2026年6月26日のカレントアウェアネス-R新着として掲載されました。</p>
+      <h4>信頼度メモ</h4>
+      <p>国立国会図書館の図書館情報サイトによる紹介記事。元情報へのリンク確認は継続課題です。</p>
+    </article>
+
+    <section class="portal">
+      <h2>ユーザポータル構築メモ</h2>
+      <p>今日の記事からは、ポータル構築で「見える化」と「信頼性」を最初から設計する重要性が見えます。お知らせや資料には、対象範囲、公開日、更新日、版数、参照元を持たせると、後から検索・差し替え・問い合わせ対応がしやすくなります。</p>
+      <ul>
+        <li>FAQやマニュアル索引は、本文検索だけでなく、カテゴリ、対象サービス、更新日、重要度で絞り込める形にする。</li>
+        <li>属性別お知らせは、誰に表示したかだけでなく、なぜ対象になったかを管理側で確認できるようにする。</li>
+        <li>AIチャットやOCRを扱う場合は、外部通信の有無、参照元表示、誤回答時の問い合わせ導線を確認する。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>今日の便利Tips</h2>
+      <article class="tip">
+        <div class="badge">Excel</div>
+        <h3>Ctrl + Tで一覧をテーブル化する</h3>
+        <h4>何が便利か</h4>
+        <p>フィルター、見出し固定、数式の自動コピーが使いやすくなり、集計や並び替えのミスを減らしやすくなります。</p>
+        <h4>手順</h4>
+        <ol>
+          <li>一覧表のどこかをクリックする。</li>
+          <li>Ctrl + Tを押す。</li>
+          <li>「先頭行をテーブルの見出しとして使用する」を確認してOKを押す。</li>
+        </ol>
+        <h4>注意点</h4>
+        <p>結合セルが多い表ではうまく使えないことがあります。先に表の形を整えてから実行します。</p>
+        <h4>活用メモ</h4>
+        <p>後から行を追加する帳票や一覧表では、テーブル化しておくと数式や書式の崩れを減らせます。</p>
+      </article>
+      <article class="tip">
+        <div class="badge">Windows 11</div>
+        <h3>クリップボード履歴で貼り付け直しを減らす</h3>
+        <h4>何が便利か</h4>
+        <p>複数のURL、エラー文、メール文面を行き来するときに、コピーし直す回数を減らせます。</p>
+        <h4>手順</h4>
+        <ol>
+          <li>Windowsキー + Vを押す。</li>
+          <li>初回は「有効にする」を選ぶ。</li>
+          <li>過去にコピーした文字や画像を選んで貼り付ける。</li>
+        </ol>
+        <h4>注意点</h4>
+        <p>パスワードや個人情報をコピーした後は、履歴を開いて削除するか、必要に応じて履歴機能をオフにします。</p>
+        <h4>活用メモ</h4>
+        <p>問い合わせ対応や資料作成で、同じ文言を何度も貼り付けるときに便利です。</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>公開前チェック</h2>
+      <div class="check">
+        <ul>
+          <li>個人名、顧客名、社内事情、未公開案件を含まないことを確認。</li>
+          <li>公開URL、出典URL、日付を確認。</li>
+          <li>一般化した表現で作成。</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>Generated for Paropten News Archive.</footer>
+  </main>
+</body>
+</html>
