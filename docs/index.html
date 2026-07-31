@@ -1,61 +1,50 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Paropten新聞</title>
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <style>
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.8;max-width:1000px;margin:40px auto;padding:0 20px;background:#f5f7fb;color:#1f2937;}
-    header{background:#18324a;color:white;padding:28px;border-radius:18px;margin-bottom:24px;}
-    section{background:white;padding:22px;border-radius:16px;border:1px solid #d7dee8;margin-bottom:20px;}
-    h2{border-bottom:2px solid #d7dee8;padding-bottom:8px;}
-    a{color:#0b5394;text-decoration:none;font-weight:700;}
-    a:hover{text-decoration:underline;}
-    .news-list{list-style:none;padding:0;margin:0;}
-    .news-list li{background:#f8fafc;border:1px solid #d7dee8;border-radius:12px;padding:14px;margin-bottom:10px;}
-    .date{display:block;color:#6b7280;font-size:.9rem;margin-top:4px;}
-    .note{color:#6b7280;}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paropten新聞</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.8;max-width:1000px;margin:40px auto;padding:0 20px;background:#f5f7fb;color:#1f2937}header{background:#18324a;color:white;padding:28px;border-radius:18px;margin-bottom:24px}section{background:white;padding:22px;border-radius:16px;border:1px solid #d7dee8;margin-bottom:20px}h2{border-bottom:2px solid #d7dee8;padding-bottom:8px}a{color:#0b5394;text-decoration:none;font-weight:700}a:hover{text-decoration:underline}.news-list{list-style:none;padding:0;margin:0}.news-list li{background:#f8fafc;border:1px solid #d7dee8;border-radius:12px;padding:14px;margin-bottom:10px}.date{display:block;color:#6b7280;font-size:.9rem;margin-top:4px}.note{color:#6b7280}
+</style>
 </head>
 <body>
-  <header><h1>Paropten新聞</h1><p>日刊ニュースのHTML保管庫です。</p></header>
-  <section>
-    <h2>日刊一覧</h2>
-    <ul class="news-list">
-      <li><a href="2026-07-31_ai-news.html">2026-07-31 公開用AI新聞</a><span class="date">自治体DX、ガバメントクラウド、図書館DX、業務効率化、AI実装、ユーザポータル、便利Tips</span></li>
-      <li><a href="2026-07-29_ai-news.html">2026-07-29 公開用AI新聞</a><span class="date">自治体AI、FAQ、データガバナンス、セキュリティ、図書館DX、ユーザポータル、便利Tips</span></li>
-      <li><a href="2026-07-28_ai-news.html">2026-07-28 公開用AI新聞</a><span class="date">公共分野の生成AI、自治体DX、オープンデータ、標準化、図書館DX、ユーザポータル、便利Tips</span></li>
-      <li><a href="2026-07-27_ai-news.html">2026-07-27 公開用AI新聞</a><span class="date">公共IT、アジャイル開発、教育データ連携、個人情報保護、DX運用、ユーザポータル、便利Tips</span></li>
-      <li><a href="2026-07-26_ai-news.html">2026-07-26 公開用AI新聞</a><span class="date">公共IT、AI情報取扱い、読書推進、図書館運営、ユーザポータル、便利Tips</span></li>
-      <li><a href="2026-07-25_ai-news.html">2026-07-25 公開用AI新聞</a><span class="date">図書館DX、デジタルアーカイブ、セキュリティ支援、ChatGPT、読書推進、ユーザポータル、便利Tips</span></li>
-      <li><a href="2026-07-24_ai-news.html">2026-07-24 公開用AI新聞</a><span class="date">公共分野の生成AI、デジタル支援、ガバメントクラウド、医療DX、図書館DX、ユーザポータル、便利Tips</span></li>
-      <li><a href="2026-07-23_ai-news.html">2026-07-23 公開用AI新聞</a><span class="date">公共DX、利用者満足度、BCP、ヘルプデスク、図書館DX、ユーザポータル、便利Tips</span></li>
-      <li><a href="2026-07-22_ai-news.html">2026-07-22 公開用AI新聞</a><span class="date">公共IT、アジャイル開発、行政調達、セキュリティ、図書館DX、ユーザポータル、便利Tips</span></li>
-      <li><a href="2026-07-21_ai-news.html">2026-07-21 公開用AI新聞</a><span class="date">公共分野の生成AI、AIガバナンス、ユーザポータル、セキュリティ、ChatGPT、便利Tips</span></li>
-      <li><a href="2026-07-20_ai-news.html">2026-07-20 公開用AI新聞</a><span class="date">公共分野の生成AI、デジタルID、公共図書館、図書館DX、ユーザポータル、便利Tips</span></li>
-      <li><a href="2026-07-19_ai-news.html">2026-07-19 公開用AI新聞</a><span class="date">公共図書館、AI音声案内、行政手続DX、デジタル認証、BCP、ユーザポータル、便利Tips</span></li>
-      <li><a href="2026-07-18_ai-news.html">2026-07-18 公開用AI新聞</a><span class="date">公共DX、データ可視化、自治体DX、公共図書館、セキュリティ、ユーザポータル、便利Tips</span></li>
-      <li><a href="2026-07-17_ai-news.html">2026-07-17 公開用AI新聞</a><span class="date">公共DX、デジタル・アイデンティティ、本人確認、政府調達、図書館オープンデータ、AI戦略、便利Tips</span></li>
-      <li><a href="2026-07-16_ai-news.html">2026-07-16 公開用AI新聞</a><span class="date">公共DX、標準ガイドライン、医療DX、図書館DX、アクセシビリティ、ユーザポータル、便利Tips</span></li>
-      <li><a href="2026-07-15_ai-news.html">2026-07-15 公開用AI新聞</a><span class="date">公共分野の生成AI、自治体窓口改革、本人確認、図書館サービス評価、ユーザポータル、便利Tips</span></li>
-      <li><a href="2026-07-14_ai-news.html">2026-07-14 公開用AI新聞</a><span class="date">公共DX、自治体DX、学校図書館、図書館支援ロボット、ユーザポータル、便利Tips</span></li>
-      <li><a href="2026-07-13_ai-news.html">2026-07-13 公開用AI新聞</a><span class="date">自治体IT、セキュリティ監査、図書館DX、AIリテラシー、デジタルアーカイブ、便利Tips</span></li>
-      <li><a href="2026-07-12_ai-news.html">2026-07-12 公開用AI新聞</a><span class="date">公共図書館、自治体DX、教育AI、図書館協力、オープンデータ、標準化、ユーザポータル、便利Tips</span></li>
-      <li><a href="2026-07-11_ai-news.html">2026-07-11 公開用AI新聞</a><span class="date">公共分野の生成AI、国産クラウド、デジタル支援、図書館DX、本人確認、ユーザポータル、便利Tips</span></li>
-      <li><a href="2026-07-10_ai-news.html">2026-07-10 公開用AI新聞</a><span class="date">公共図書館、教育AI、電子図書館、行政サービスデザイン、ユーザポータル、RAG、便利Tips</span></li>
-      <li><a href="2026-07-09_ai-news.html">2026-07-09 公開用AI新聞</a><span class="date">公共DX、行政SaaS調達、公共IT開発、図書館サービス、ユーザポータル、セキュリティ、便利Tips</span></li>
-      <li><a href="2026-07-08_ai-news.html">2026-07-08 公開用AI新聞</a><span class="date">公共DX、医療DX、政府調達、図書館DX、ユーザポータル、アクセシビリティ、便利Tips</span></li>
-      <li><a href="2026-07-04_ai-news.html">2026-07-04 公開用AI新聞</a><span class="date">公共DX、本人確認、情報連携、政策ダッシュボード、セキュリティ運用、ユーザポータル、便利Tips</span></li>
-      <li><a href="2026-07-03_ai-news.html">2026-07-03 公開用AI新聞</a><span class="date">公共DX、セキュリティ、政府情報システム、OSS、自治体標準化、図書館DX、便利Tips</span></li>
-      <li><a href="2026-07-02_ai-news.html">2026-07-02 公開用AI新聞</a><span class="date">公共DX、自治体IT、政府情報システム、政策ダッシュボード、図書館DX、RAG、便利Tips</span></li>
-      <li><a href="2026-07-01_ai-news.html">2026-07-01 公開用AI新聞</a><span class="date">自治体DX、政府情報システム、政策ダッシュボード、ISMAP、図書館DX、AI活用、便利Tips</span></li>
-      <li><a href="2026-06-30_ai-news.html">2026-06-30 公開用AI新聞</a><span class="date">公共DX、行政データ基盤、本人確認、窓口改革、アクセシビリティ、ナレッジ運用、便利Tips</span></li>
-      <li><a href="2026-06-29_ai-news.html">2026-06-29 公開用AI新聞</a><span class="date">公共IT、図書館DX、OCR、本人確認、ポータル運用、便利Tips</span></li>
-      <li><a href="2026-06-28_ai-news.html">2026-06-28 公開用AI新聞</a><span class="date">公共図書館、図書館DX、デジタル資料、ポータル権限管理、便利Tips</span></li>
-    </ul>
-  </section>
-  <section><h2>運用メモ</h2><p class="note">公開ページのため、公開して問題ない内容だけを掲載します。</p></section>
-  <footer class="note">Generated for Paropten News Archive.</footer>
+<header><h1>Paropten新聞</h1><p>日刊ニュースのHTML保管庫です。</p></header>
+<section><h2>日刊一覧</h2><ul class="news-list">
+<li><a href="2026-08-01_ai-news.html">2026-08-01 AI新聞</a><span class="date">図書館DX、自治体DX、読書バリアフリー、AI運用、業務効率化、ユーザポータル、便利Tips</span></li>
+<li><a href="2026-07-31_ai-news.html">2026-07-31 AI新聞</a><span class="date">自治体DX、ガバメントクラウド、図書館DX、業務効率化、AI実装、ユーザポータル、便利Tips</span></li>
+<li><a href="2026-07-29_ai-news.html">2026-07-29 AI新聞</a></li>
+<li><a href="2026-07-28_ai-news.html">2026-07-28 AI新聞</a></li>
+<li><a href="2026-07-27_ai-news.html">2026-07-27 AI新聞</a></li>
+<li><a href="2026-07-26_ai-news.html">2026-07-26 AI新聞</a></li>
+<li><a href="2026-07-25_ai-news.html">2026-07-25 AI新聞</a></li>
+<li><a href="2026-07-24_ai-news.html">2026-07-24 AI新聞</a></li>
+<li><a href="2026-07-23_ai-news.html">2026-07-23 AI新聞</a></li>
+<li><a href="2026-07-22_ai-news.html">2026-07-22 AI新聞</a></li>
+<li><a href="2026-07-21_ai-news.html">2026-07-21 AI新聞</a></li>
+<li><a href="2026-07-20_ai-news.html">2026-07-20 AI新聞</a></li>
+<li><a href="2026-07-19_ai-news.html">2026-07-19 AI新聞</a></li>
+<li><a href="2026-07-18_ai-news.html">2026-07-18 AI新聞</a></li>
+<li><a href="2026-07-17_ai-news.html">2026-07-17 AI新聞</a></li>
+<li><a href="2026-07-16_ai-news.html">2026-07-16 AI新聞</a></li>
+<li><a href="2026-07-15_ai-news.html">2026-07-15 AI新聞</a></li>
+<li><a href="2026-07-14_ai-news.html">2026-07-14 AI新聞</a></li>
+<li><a href="2026-07-13_ai-news.html">2026-07-13 AI新聞</a></li>
+<li><a href="2026-07-12_ai-news.html">2026-07-12 AI新聞</a></li>
+<li><a href="2026-07-11_ai-news.html">2026-07-11 AI新聞</a></li>
+<li><a href="2026-07-10_ai-news.html">2026-07-10 AI新聞</a></li>
+<li><a href="2026-07-09_ai-news.html">2026-07-09 AI新聞</a></li>
+<li><a href="2026-07-08_ai-news.html">2026-07-08 AI新聞</a></li>
+<li><a href="2026-07-04_ai-news.html">2026-07-04 AI新聞</a></li>
+<li><a href="2026-07-03_ai-news.html">2026-07-03 AI新聞</a></li>
+<li><a href="2026-07-02_ai-news.html">2026-07-02 AI新聞</a></li>
+<li><a href="2026-07-01_ai-news.html">2026-07-01 AI新聞</a></li>
+<li><a href="2026-06-30_ai-news.html">2026-06-30 AI新聞</a></li>
+<li><a href="2026-06-29_ai-news.html">2026-06-29 AI新聞</a></li>
+<li><a href="2026-06-28_ai-news.html">2026-06-28 AI新聞</a></li>
+</ul></section>
+<section><h2>運用メモ</h2><p class="note">公開ページのため、公開して問題ない内容だけを掲載します。</p></section>
+<footer class="note">Generated for Paropten News Archive.</footer>
 </body>
 </html>
