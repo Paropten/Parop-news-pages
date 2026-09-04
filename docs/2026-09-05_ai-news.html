@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026-09-05 AI新聞</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+body{font-family:"BIZ UDPGothic","BIZ UDPゴシック",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.8;max-width:920px;margin:0 auto;padding:20px;background:#f5f7fb;color:#1f2937}
+header{background:#18324a;color:#fff;padding:28px;border-radius:18px;margin-bottom:22px}
+section{background:#fff;padding:22px;border:1px solid #d7dee8;border-radius:16px;margin-bottom:18px}
+.meta{color:#667085;font-size:.94rem}.tag{display:inline-block;background:#eaf2fb;color:#184f78;padding:3px 9px;border-radius:999px;margin-right:6px;font-size:.85rem}
+h1,h2,h3{line-height:1.4}h2{border-bottom:2px solid #d7dee8;padding-bottom:8px}a{color:#0b5394;word-break:break-all}
+.point{background:#f8fafc;border-left:4px solid #98a7b7;padding:12px 14px;margin:12px 0}.confidence{font-size:.92rem;color:#667085}
+ul{padding-left:1.3em}footer{color:#667085;font-size:.9rem;padding:10px 4px 28px}
+</style>
+</head>
+<body>
+<header>
+<h1>AI新聞</h1>
+<p>2026年9月5日（土）｜自治体DX・図書館DX・IT基盤・セキュリティ</p>
+<p>直近の公開情報から、実務に使いやすい話題を厳選。</p>
+</header>
+<section>
+<h2>今日のポイント</h2>
+<ul>
+<li>自治体のデータ連携基盤は、個別構築から共同利用・標準データモデルを前提とした設計へ進んでいる。</li>
+<li>図書館のAI検索では、自然文検索だけでなく利用上限や著作権・禁止行為の明示まで運用設計に含まれている。</li>
+<li>監視サーバの共通基盤移行は、監視対象・移行手順・切替後確認を分けて管理する重要性を示す。</li>
+<li>認証基盤の脆弱性は、ポータルや管理画面の認証・認可コンポーネントも継続的な脆弱性管理対象であることを再確認させる。</li>
+</ul>
+</section>
+<section>
+<span class="tag">自治体DX</span><span class="tag">データ連携基盤</span>
+<h2>デジタル庁、エリアデータ連携基盤共同利用ガイドブック第3.0版を公開</h2>
+<p class="meta">公開日：2026年9月4日｜出典：デジタル庁</p>
+<p><a href="https://www.digital.go.jp/policies/digital_garden_city_nation/area-data-coordination-platform">https://www.digital.go.jp/policies/digital_garden_city_nation/area-data-coordination-platform</a></p>
+<h3>要点</h3>
+<ul>
+<li>行政手続、健康、交通、防災、観光などのデータをサービス間で連携するエリアデータ連携基盤について、共同利用ガイドブック第3.0版が公開された。</li>
+<li>重複投資を避け、特定のサービスや事業者に依存しないオープンな仕様を確保する考え方が示されている。</li>
+<li>ガイドブックに加え、相互運用性やサービス移行を意識した共通データモデルも公開された。</li>
+</ul>
+<div class="point"><strong>実務ポイント：</strong>複数サービスをつなぐ場合は、APIだけでなく、ユーザ管理、認証・認可、利用履歴、データモデル、責任分界を共通項目として整理すると、後からサービスを追加しやすい。</div>
+<p><strong>活用メモ：</strong>利用者ポータルでも、FAQ、お知らせ、申請、外部サービスを個別に作り込む前に、共通ID・属性・通知・ログの境界を整理しておくと拡張時の手戻りを減らせる。</p>
+<p><strong>新規性メモ：</strong>2026年9月4日に第3.0版とデータモデルが同時公開され、共同利用と相互運用性の考え方が更新された。</p>
+<p class="confidence">信頼度メモ：高。デジタル庁の公式資料。</p>
+</section>
+<section>
+<span class="tag">図書館DX</span><span class="tag">AI検索</span>
+<h2>新聞データベース「ヨミダス」にAI検索機能、図書館が利用条件を案内</h2>
+<p class="meta">公開日：2026年9月4日｜出典：獨協大学図書館</p>
+<p><a href="https://www.dokkyo.ac.jp/library/news/2026/20260904009445.html">https://www.dokkyo.ac.jp/library/news/2026/20260904009445.html</a></p>
+<h3>要点</h3>
+<ul>
+<li>9月1日から、新聞データベース「ヨミダス」に自然文で検索できるAI検索機能が追加された。</li>
+<li>検索対象は1986年9月以降の記事の一部で、複数言語による検索にも対応する。</li>
+<li>当面は1アカウント1日最大50回という利用上限があり、機能追加に合わせて著作権・禁止行為に関する利用規定も改訂された。</li>
+</ul>
+<div class="point"><strong>実務ポイント：</strong>AI検索を追加する際は、検索精度だけでなく、対象範囲、回数制限、権利条件、禁止事項、上限到達時の案内まで利用画面とヘルプで一体的に示す必要がある。</div>
+<p><strong>活用メモ：</strong>FAQやナレッジ検索でも、対象文書・更新日・利用上限・入力禁止情報を明示すると、問い合わせ削減と安全な利用を両立しやすい。</p>
+<p><strong>新規性メモ：</strong>AI検索の機能紹介と同時に、サーバ負荷を踏まえた回数制限と利用規定改訂まで具体的に案内している点が参考になる。</p>
+<p class="confidence">信頼度メモ：高。大学図書館の公式案内で、利用条件が具体的に記載されている。</p>
+</section>
+<section>
+<span class="tag">地域DX</span><span class="tag">IT基盤</span><span class="tag">監視</span>
+<h2>佐賀県、公共ネットワーク監視サーバの共通基盤移行・構築を調達</h2>
+<p class="meta">公開日：2026年9月4日｜出典：佐賀県</p>
+<p><a href="https://www.pref.saga.lg.jp/kiji003120934/index.html">https://www.pref.saga.lg.jp/kiji003120934/index.html</a></p>
+<h3>要点</h3>
+<ul>
+<li>佐賀県は公共ネットワーク監視サーバの共通基盤移行・構築業務について条件付き一般競争入札を開始した。</li>
+<li>参加資格確認は9月11日、質問受付は9月14日、入札・開札は9月25日が予定されている。</li>
+<li>公告、契約書案、仕様書などが公開され、基盤移行を調達単位として扱っている。</li>
+</ul>
+<div class="point"><strong>実務ポイント：</strong>監視基盤の移行では、サーバを移す作業だけでなく、監視対象一覧、閾値、通知先、監視停止時間、切替判定、移行後の疎通確認を分けて移行チェックリスト化すると抜けを減らせる。</div>
+<p><strong>活用メモ：</strong>クラウドや仮想基盤への移行時は、「業務サーバの移行」と「監視・バックアップ・ジョブ・証明書など周辺運用の移行」を別工程としてWBSに持たせると管理しやすい。</p>
+<p><strong>新規性メモ：</strong>2026年9月4日に公開された地域のIT基盤調達で、監視サーバの共通基盤移行を独立した業務として扱っている。</p>
+<p class="confidence">信頼度メモ：高。佐賀県の公式入札情報。</p>
+</section>
+<section>
+<span class="tag">セキュリティ</span><span class="tag">認証・認可</span>
+<h2>Casdoorに認可回避の脆弱性、認証基盤も資産管理の対象に</h2>
+<p class="meta">公開日：2026年9月4日｜出典：JVN（JPCERT/CC・IPA）</p>
+<p><a href="https://jvn.jp/vu/JVNVU96680494/">https://jvn.jp/vu/JVNVU96680494/</a></p>
+<h3>要点</h3>
+<ul>
+<li>認証サーバCasdoorに認可回避の脆弱性があるとして、JVNが2026年9月4日に情報を公開した。</li>
+<li>JVNはCERT/CCのアドバイザリを参照するよう案内しており、影響範囲と対策は利用環境ごとの確認が必要となる。</li>
+<li>認証・認可を担う共通コンポーネントは、複数のWebサービスや管理画面へ影響が波及し得る。</li>
+</ul>
+<div class="point"><strong>実務ポイント：</strong>ポータルやWebシステムでは、アプリ本体だけでなく、認証サーバ、SSO、リバースプロキシ、APIゲートウェイなどの共通部品も資産台帳へ登録し、バージョンと公開範囲を追跡する。</div>
+<p><strong>活用メモ：</strong>脆弱性確認表に「製品名」「用途」「バージョン」「外部公開有無」「利用サービス」「対応期限」を持たせると、共通基盤の影響調査が早くなる。</p>
+<p><strong>新規性メモ：</strong>9月4日公開の認可回避情報で、会員制ポータルや管理画面のアクセス制御を支える認証基盤の継続監視が改めて重要となる。</p>
+<p class="confidence">信頼度メモ：高。JVNによる公式脆弱性情報。</p>
+</section>
+<section>
+<h2>ユーザポータル構築メモ</h2>
+<ul>
+<li>ポータルの外部連携を増やす前に、共通ID、属性、認証・認可、ログ、データモデルを「共通基盤」として整理する。</li>
+<li>AI検索には、対象範囲、利用上限、権利条件、入力禁止情報、原文への導線をセットで持たせる。</li>
+<li>認証・認可コンポーネントは、画面から見えにくくても重要な依存部品として資産・脆弱性管理へ含める。</li>
+</ul>
+<p><strong>確認したい論点：</strong>属性別表示とデータアクセス制御の境界、検索ログの保持期間、AI検索の利用回数制御、認証基盤障害時の代替導線。</p>
+<p><strong>次に検討できること：</strong>ポータル構成図に「画面」「データ」「認証」「外部連携」「監視」の5層を設け、各層の責任範囲とログを対応付ける。</p>
+</section>
+<section>
+<h2>今日の便利Tips</h2>
+<h3>Windows 11｜Win＋Pで画面出力をすばやく切り替える</h3>
+<p><strong>何が便利か：</strong>会議室のモニターやテレビへ接続したとき、複製・拡張・PC画面のみなどをすぐ選べる。</p>
+<p><strong>手順：</strong>Win＋Pを押し、表示されたメニューから「PC画面のみ」「複製」「拡張」「セカンドスクリーンのみ」を選択する。</p>
+<p><strong>注意点：</strong>外部ディスプレイが認識されない場合は、ケーブル、入力切替、グラフィックドライバーも確認する。</p>
+<p><strong>活用メモ：</strong>オンライン会議や現地説明で画面構成を切り替える場面に便利。</p>
+<hr>
+<h3>Outlook｜Ctrl＋Qで選択したメールを既読にする</h3>
+<p><strong>何が便利か：</strong>プレビューだけで確認したメールを、右クリックせずに既読へ変更できる。</p>
+<p><strong>手順：</strong>メール一覧で対象メールを選択し、Ctrl＋Qを押す。</p>
+<p><strong>注意点：</strong>新しいOutlookと従来版Outlookでは一部ショートカットの挙動が異なる場合がある。</p>
+<p><strong>活用メモ：</strong>大量の通知メールを確認しながら、処理済みのものだけ素早く既読化すると整理しやすい。</p>
+</section>
+<footer>
+<p>掲載内容は公開情報を基に要点を整理したものです。制度・製品・脆弱性への対応は、必ず各公式情報の最新版を確認してください。</p>
+</footer>
+</body>
+</html>
