@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026-09-09 AI新聞</title>
+<style>
+body{font-family:"BIZ UDPGothic","BIZ UDPゴシック",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.8;max-width:900px;margin:0 auto;padding:20px;background:#f4f7fb;color:#1f2937}header{background:#18324a;color:#fff;padding:26px;border-radius:18px;margin-bottom:22px}section,.article{background:#fff;border:1px solid #d7dee8;border-radius:16px;padding:20px;margin-bottom:18px}h1,h2,h3{line-height:1.4}h2{border-bottom:2px solid #d7dee8;padding-bottom:8px}.meta{color:#5f6b7a;font-size:.94rem}.cat{display:inline-block;background:#e8eef5;border-radius:999px;padding:3px 10px;font-size:.84rem;margin-bottom:8px}.box{background:#f8fafc;border-left:4px solid #9aa9bb;padding:12px 14px;margin-top:12px}a{color:#0b5394;word-break:break-all}.tip{background:#fffdf4;border:1px solid #eadfa6}.check{font-size:.9rem;color:#5f6b7a}ul{padding-left:1.25rem}</style>
+</head>
+<body>
+<header>
+<h1>AI新聞 2026-09-09</h1>
+<p>公共分野のAI・図書館DX・セキュリティを中心に、直近の更新から実務上の示唆がある話題を整理します。</p>
+</header>
+
+<section>
+<h2>今日の要約</h2>
+<p>図書館検索では、自然文から関連資料を選び概要まで示す生成AI機能が実サービスへ入り始めています。一方、ランサムウェア対策では、発生後の復旧だけでなく侵害調査・業務継続・外部公表まで事前設計する重要性が改めて示されました。公共分野のデジタル人材政策も次期方針の検討段階に入り、AIとサイバーセキュリティを横断して扱える人材育成が重要テーマになっています。</p>
+</section>
+
+<article class="article">
+<span class="cat">図書館DX・生成AI</span>
+<h2>統合検索に「AIリサーチアシスタント」機能、自然文から関連文献を提示</h2>
+<p class="meta">公開日：2026-09-08 ／ 出典：カレントアウェアネス・ポータル</p>
+<p>URL：<a href="https://current.ndl.go.jp/car/284381">https://current.ndl.go.jp/car/284381</a></p>
+<h3>要点</h3>
+<ul>
+<li>大学図書館の統合検索データベースに、生成AIを使った検索支援機能が追加された。</li>
+<li>利用者が研究課題や疑問を自然言語で入力すると、関連文献を5件選び、概要とともに提示する。</li>
+<li>利用には検索システムへのログインが必要で、既存の認証・検索基盤の上にAI機能を載せる構成となっている。</li>
+</ul>
+<div class="box"><strong>実務ポイント：</strong>AI検索を単独サービスにせず、既存の検索・認証・所蔵情報の導線に組み込む設計は、公共向けポータルでも参考になる。AIの回答から必ず原資料へ遷移できること、候補数や検索対象を明示することが重要。</div>
+<div class="box"><strong>活用メモ：</strong>FAQやマニュアル検索でも「自由文入力 → 候補を数件提示 → 原文を開く」の3段階にすると、回答を断定するAIより安全に導入しやすい。</div>
+<p><strong>新規性メモ：</strong>過去号で扱ったデジタルアーカイブのAI検索とは異なり、今回は統合検索データベースにログイン前提の生成AI支援が組み込まれた実装例。</p>
+<p><strong>信頼度メモ：</strong>国立国会図書館が運営する専門ニュースサイトによる紹介。元発表を基にした情報で信頼度は高い。</p>
+</article>
+
+<article class="article">
+<span class="cat">セキュリティ・BCP</span>
+<h2>IPAが「ランサムウェア被害から学ぶ教訓集」を公開</h2>
+<p class="meta">公開日：2026-09-08 ／ 出典：IPA</p>
+<p>URL：<a href="https://www.ipa.go.jp/security/todokede/crack-virus/ransomware_lessons_learned.html">https://www.ipa.go.jp/security/todokede/crack-virus/ransomware_lessons_learned.html</a></p>
+<h3>要点</h3>
+<ul>
+<li>国内の複数の被害組織へのインタビューを基に、ランサムウェア被害時の実際の対応を振り返った教訓集。</li>
+<li>現在主流の侵入型ランサムウェアでは、暗号化だけでなく情報持ち出しを伴う二重脅迫が深刻な脅威となる。</li>
+<li>発覚時には侵害調査、復旧、業務継続判断、外部公表などを短時間で進める必要があり、事前準備が不可欠とされる。</li>
+</ul>
+<div class="box"><strong>実務ポイント：</strong>バックアップの有無だけでBCPを終わらせず、「誰が止めるか」「どこまで切り離すか」「どの時点で外部公表するか」「復旧判定を誰が行うか」まで手順化する必要がある。</div>
+<div class="box"><strong>活用メモ：</strong>業務システム、Web、認証、バックアップ、監視を分けて、停止判断と復旧優先順位を一覧化しておくと初動時の迷いを減らせる。</div>
+<p><strong>新規性メモ：</strong>一般的な注意喚起ではなく、実際の被害組織へのヒアリングから得た教訓をまとめた点が新しい。</p>
+<p><strong>信頼度メモ：</strong>IPAの一次情報。国内組織の実事例を基にしており信頼度は非常に高い。</p>
+</article>
+
+<article class="article">
+<span class="cat">自治体DX・人材</span>
+<h2>デジタル庁、次期デジタル人材育成政策の検討会を開始</h2>
+<p class="meta">公開・更新：2026-09-08 ／ 出典：デジタル庁</p>
+<p>URL：<a href="https://www.digital.go.jp/councils/digital-talent-development-policy/ff566760-278e-47da-8454-b25c40912fcb">https://www.digital.go.jp/councils/digital-talent-development-policy/ff566760-278e-47da-8454-b25c40912fcb</a></p>
+<h3>要点</h3>
+<ul>
+<li>2027年度以降の政府目標と取組方針を整理するため、デジタル人材育成政策の検討会が始動する。</li>
+<li>第1回は2026年9月9日に開催され、今後の方向性と重点施策を検討する。</li>
+<li>AI活用やサイバーセキュリティなど、技術変化に合わせて継続的に能力を更新できる人材育成が今後の焦点になる。</li>
+</ul>
+<div class="box"><strong>実務ポイント：</strong>DX研修は単発の操作研修だけでなく、AI、データ、セキュリティ、業務改善を横断して学べる構成にすると実務へつながりやすい。</div>
+<div class="box"><strong>活用メモ：</strong>研修計画では「知る」「試す」「業務へ適用する」「振り返る」の4段階を設け、受講数より実務適用例を記録するほうが改善につながる。</div>
+<p><strong>新規性メモ：</strong>2027年度以降の人材育成目標を決める新しい検討フェーズが始まる点。</p>
+<p><strong>信頼度メモ：</strong>デジタル庁の一次情報。開催日時・目的が公式に明示されている。</p>
+</article>
+
+<section>
+<h2>ユーザポータル構築メモ</h2>
+<ul>
+<li><strong>実務に使える示唆：</strong>AI検索は「答えを生成する」より「信頼できる候補へ案内する」用途から始めると導入リスクを抑えやすい。</li>
+<li><strong>確認したい論点：</strong>ログイン前後で検索対象を変えるか、利用履歴をどこまで保存するか、誤回答時に原資料へ戻れる導線があるか。</li>
+<li><strong>次に検討できること：</strong>FAQ・マニュアル・お知らせを同じ検索窓から探し、未解決の場合だけ問い合わせフォームへ遷移する導線を試作する。</li>
+</ul>
+</section>
+
+<section class="tip">
+<h2>今日の便利Tips 1</h2>
+<span class="cat">Windows 11</span>
+<h3>Win + X で管理系メニューをすぐ開く</h3>
+<p><strong>何が便利か：</strong>ターミナル、デバイスマネージャー、ディスク管理、設定などへマウス移動を減らしてアクセスできる。</p>
+<p><strong>手順：</strong>Windowsキー + X を押し、表示されたメニューから目的の項目を選択する。</p>
+<p><strong>注意点：</strong>管理者権限が必要な操作では確認画面が表示される。</p>
+<p><strong>活用メモ：</strong>PCトラブル対応で設定画面を何度も行き来する場面に便利。</p>
+</section>
+
+<section class="tip">
+<h2>今日の便利Tips 2</h2>
+<span class="cat">Excel</span>
+<h3>Ctrl + D で上のセルを下方向へ一括コピー</h3>
+<p><strong>何が便利か：</strong>同じ値や数式を複数行へコピーするとき、ドラッグ操作を減らせる。</p>
+<p><strong>手順：</strong>コピー元を含めて下方向の範囲を選択し、Ctrl + D を押す。</p>
+<p><strong>注意点：</strong>数式は相対参照が行方向に変化するため、固定したいセルは絶対参照を使う。</p>
+<p><strong>活用メモ：</strong>一覧表の数式追加や管理表の定型入力で使いやすい。</p>
+</section>
+
+<footer class="check">
+<p>公開前チェック：個人名なし／顧客名なし／社内事情なし／未公開案件なし。記事候補は直近情報を中心に20件以上確認し、過去14日以内の掲載済みテーマとの重複・類似を除外して選定しています。</p>
+</footer>
+</body>
+</html>
